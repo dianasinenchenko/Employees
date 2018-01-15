@@ -1,0 +1,20 @@
+{% extends "base_generic.html" %}
+
+{% block content %}
+<h1>Home</h1>
+
+
+
+
+<h2>Dynamic content</h2>
+
+<p>counts:</p>
+<ul>
+
+<li><strong>Employees:</strong> {{ num_employees }}</li>
+</ul>
+
+
+You have visited this page {{ num_visits }} times.
+
+{% endblock %}
